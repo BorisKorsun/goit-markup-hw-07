@@ -108,11 +108,11 @@ body {
   background-color: $brand-color;
 
   transition: background-color 250ms $cubic;
-}
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 /* ---------------features--------------- */
@@ -327,11 +327,11 @@ body {
   border-radius: 50%;
 
   transition: background-color 250ms $cubic;
-}
 
-.team-links .link:hover,
-.team-links .link:focus {
-  background-color: $accent-color;
+  & .link:hover,
+  & .link:focus {
+    background-color: $accent-color;
+  }
 }
 
 .team-icon {
@@ -340,11 +340,11 @@ body {
   fill: #afb1b8;
 
   transition: fill 250ms $cubic;
-}
 
-.team-links .link:hover .team-icon,
-.team-links .link:focus .team-icon {
-  fill: #fff;
+  .team-links .link:hover .team-icon,
+  .team-links .link:focus .team-icon {
+    fill: #fff;
+  }
 }
 
 /* ---------------clients--------------- */
@@ -390,12 +390,12 @@ body {
   fill: #afb1b8;
 
   transition: fill 250ms $cubic;
-}
 
-.clients-list .link:hover .clients-icon,
-.clients-list .link:focus .clients-icon {
-  fill: $accent-color;
-  border-color: $accent-color;
+  .clients-list .link:hover .clients-icon,
+  .clients-list .link:focus .clients-icon {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
 }
 
 /* ---------------footer--------------- */
@@ -447,11 +447,11 @@ body {
   color: #ffffff;
 
   transition: color 250ms $cubic;
-}
 
-.footer-link-place:hover,
-.footer-link-place:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .footer-link {
@@ -463,11 +463,11 @@ body {
   color: $footer-text-color;
 
   transition: color 250ms $cubic;
-}
 
-.footer-link:hover,
-.footer-link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .brand-span-studio {
@@ -510,11 +510,11 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 
   transition: background-color 250ms $cubic;
-}
 
-.footer-links-list .link:hover,
-.footer-links-list .link:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .footer-icon {
@@ -564,6 +564,8 @@ body {
   min-width: 200px;
   min-height: 50px;
 
+  cursor: pointer;
+
   color: $third-text-color;
   background-color: $accent-color;
 
@@ -576,11 +578,11 @@ body {
   letter-spacing: 0.06em;
 
   transition: background-color 250ms $cubic;
-}
 
-.footer-form > .form-btn:hover,
-.footer-form > .form-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .footer-form .form-icon {
@@ -657,10 +659,10 @@ body {
 
 .modal-btn .icon {
   transition: fill 250ms $cubic;
-}
 
-.modal-btn:hover .icon {
-  fill: $accent-color;
+  .modal-btn:hover .icon {
+    fill: $accent-color;
+  }
 }
 
 .modal-form {
