@@ -328,8 +328,8 @@ body {
 
   transition: background-color 250ms $cubic;
 
-  & .link:hover,
-  & .link:focus {
+  &:hover,
+  &:focus {
     background-color: $accent-color;
   }
 }
@@ -341,8 +341,8 @@ body {
 
   transition: fill 250ms $cubic;
 
-  .team-links .link:hover .team-icon,
-  .team-links .link:focus .team-icon {
+  .team-links .link:hover &,
+  .team-links .link:focus & {
     fill: #fff;
   }
 }
@@ -391,8 +391,8 @@ body {
 
   transition: fill 250ms $cubic;
 
-  .clients-list .link:hover .clients-icon,
-  .clients-list .link:focus .clients-icon {
+  .clients-list .link:hover &,
+  .clients-list .link:focus & {
     fill: $accent-color;
     border-color: $accent-color;
   }
@@ -659,10 +659,10 @@ body {
 
 .modal-btn .icon {
   transition: fill 250ms $cubic;
+}
 
-  .modal-btn:hover .icon {
-    fill: $accent-color;
-  }
+.modal-btn:hover .icon {
+  fill: $accent-color;
 }
 
 .modal-form {
@@ -824,10 +824,10 @@ body {
   cursor: pointer;
 
   transition: background-color 250ms $cubic;
-}
 
-.form-modal-btn:hover,
-.form-modal-btn:focus {
-  background-color: #188ce8;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
 }
